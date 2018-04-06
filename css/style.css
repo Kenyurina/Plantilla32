@@ -1,0 +1,115 @@
+body { font-family: Alegreya Sans; font-size:20px; overflow-x:hidden;}
+
+/*COLORES DE LA PLANTILLA*/
+
+.fondo_cab {background-color: #000000;}
+.fondo_foo {background-color: #373838;}
+.fondo_aba {background-color: #2c2d2d;}
+.fondo_tod {background-color: #ffffff;}
+.color_let {color: #616262;}
+.color_tit {color: #000000;}
+.color_blan {color: #ffffff;}
+.color_negro { color: #000000!important; }
+/*.color_claro{ color: #616262;  }*/
+ .color_azul {color: #337ab7!important;}
+
+/*ESTILOS DE LA CABECERA*/
+ 
+.header{text-align:center; margin-bottom:10px;}
+.header img{width:60px; height:60px;}
+.cintillo_a{ height:49px;}
+.cabecera { display:flex; flex-direction:row;flex-wrap:wrap; }
+.cabecera h4{display: inline-block;  font-family: Alegreya Sans; margin:40px 20px 0px 20px; font-weight:bold; } 
+.cabecera h4 em{ font-size:15px; margin-left:120px;}
+.cabecera h4 img{ width:25px; height:25px;  font-family: Alegreya Sans; }
+.cabecera div{ position:relative; float:left; }
+.logo img{margin:40px 0px 0px 0px;text-align:center;}
+.fa-phone-square{ font-size:20px; margin-right:1px; }
+.fa-envelope-square{ font-size:20px; margin-right:1px; }
+.cabecera img { width:40px; height:40px; }
+.cabecera p { font-style:italic; margin-left:40px; color:#616262; font-family: Alegreya Sans; font-size:13px; line-height:1px;  }
+
+/*ESTILOS DEL MENU*/
+
+#menu {float:left; left:50%; list-style-type:none; margin:0 auto; padding:0.5px; position:relative;}
+#menu .alin {position:relative; right:50%;}
+#menu li a {font-size:19px; font-family:Alegreya Sans; margin:4px 0px 2px 0px;}
+#menu .dropdown-menu li a {font-size:17px; padding: 10px;  font-family:Alegreya Sans; margin:4px 0px 2px 0px;}
+#menu .dropdown-menu li a:hover {color: #C2185B;}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {background-color: #ffffff;border-bottom:1px solid #cfcfcf;}
+.sombra {box-shadow: 20px 20px 50px 10px rgba(0,0,0,.05);}
+.navbar {position: relative;min-height: 50px;margin-bottom: 1px;border: 1px solid transparent;}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {color: #C2185B;
+background-color: #ffffff;}
+
+/*ESTILOS DEL CUERPO INDEX*/
+
+.cuerpo h1{text-align:center; font-size:2em; margin:50px; font-family:'Alegreya Sans'}
+.cuerpo img{width:300px; height:214px;}
+.cuerpo p{ font-family:'Alegreya Sans'; sans-serif; font-size:1em; text-align:center; }
+
+/*ESTILOS DEL CUERPO Quienes somos*/
+
+.informacion{ text-align:left; margin:50px;}
+.informacion p{ text-align:center; }
+.img_grupo{ text-align: center; margin-bottom:50px;}
+.img_grupo img{ width:230px; height:150px;}
+
+/*ESTILOS DEL CUERPO CONTACTENOS*/
+
+.boton_color{ background-color: #337ab7; border-color: #2e6da4; color: #fff; }
+.titleform { font-size:30px; font-family:'Alegreya Sans';}
+.padin{ padding-bottom:50px; padding-top: 50px; }
+.btn{ margin-left:15px; border-radius:0px; }
+.parrafos p { font-family:Alegreya Sans; font-size:20px; font-weight:bold; }
+.parrafos  a { text-decoration:none; }
+
+
+/*ESTILOS DEL CUERPO */
+.heading-title{ margin:20px 0 0px;font-size:5px; font-weight:bold;padding-bottom:20px; }
+.title-f{margin-left:15px; padding-bottom:20px;}
+.descripcion span{font-size:45px; line-height: 50px;}  
+.padin-a{ padding-top:50px; }
+/*.indicadores{ margin-left:25%;padding:100px;}*/
+.imgindicador{ bottom:-70px;}
+.indica{ margin-left:25%; padding:30px;}
+
+/*ESTILOS DEL CUERPO PRODUCTOS*/
+
+.product-block {padding-bottom: 40px; margin-top:20px;}
+.product-block .product-meta .name {margin: 0px;height: 50px; width:350px;}
+.product-block .product-meta .name a {font-size: 1.3em; height: 40px; overflow: hidden; font-weight:bold; padding-top: 15px;
+ width: 100%; display: inline-block; text-decoration:none; font-family: Alegreya Sans; font-style:italic;}
+.product-block img{ width:240px; height:220px;}
+.cols{ padding-top:20px; }
+.imgindicador li img{ padding:5px; width:60px; height:60px}
+.servicios img { width:400px; /*height:91px; */}
+.descrip {height: 70px; font-family:Alegreya Sans; font-size:20px; padding-top:30px;}
+
+
+/*ESTILOS DEL FOOTER*/
+
+.cintillo{ padding:10px; font-size:18px; text-align:center;}
+.box{display:flex; justify-content:space-between; align-items:center; padding-bottom:20px;}
+.box h2{font-size:20px; font-family: Alegreya Sans;}
+.box small {font-size:17px; line-height:27px; font-family: Alegreya Sans;}
+.box small img{  width:25px; height:25px;  margin-right: 10px;}
+.footer{padding:20px 0; display:flex;}
+
+/*ESTILOS DEL MODAL*/
+
+.modal {display: none;position: fixed;z-index: 20;padding-top: 100px;left: 0;top: 0;width: 100%;height: 100%;overflow: auto;background-color: rgba(0, 0, 0, .8);}
+.modal-content {position: relative;background-color: #fefefe;margin: auto;padding: 0;width: 90%;max-width: 800px;}
+.column {float: left;width: 100%;}
+.close {color: white;position: absolute;top: 10px;right: 25px;font-size: 35px;font-weight: bold;}
+.close:hover,
+.close:focus {color: #999;text-decoration: none;cursor: pointer;}
+.mySlides {display: none;}
+.cursor {cursor: pointer}
+.prev,
+.next {cursor: pointer;position: absolute;top: 50%;width: auto;padding: 16px;margin-top: -50px;color: white;font-weight: bold;font-size: 20px;transition: 0.6s ease;border-radius: 0 3px 3px 0;user-select: none;-webkit-user-select: none;}
+.next {right: 0;border-radius: 3px 0 0 3px;}
+.prev:hover,
+.next:hover {background-color: rgba(0, 0, 0, 0.8);}
+.mySlides {animation-name: zoom;animation-duration: 0.6s; } 
+@keyframes zoom {from {transform:scale(0)} to {transform:scale(1)}}
